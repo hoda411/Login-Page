@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+      <ImageView
+          android:layout_width="100dp"
+          android:layout_height="90dp"
+          android:layout_gravity="center"
+          android:src="@drawable/profile"
+          android:layout_marginTop="20dp"
+          />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="57dp"
+          android:id="@+id/username"
+          android:hint="Name : "
+          android:layout_marginTop="20dp"
+          android:layout_marginRight="40dp"
+          android:layout_marginLeft="40dp"
+          android:padding="10dp"
+          android:background="#66DAE2E8"
+          android:drawableLeft="@drawable/user_32px"
+          android:drawablePadding="15dp"
+          />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="57dp"
+          android:id="@+id/email"
+          android:hint="Email ID : "
+          android:layout_marginTop="20dp"
+          android:layout_marginRight="40dp"
+          android:layout_marginLeft="40dp"
+          android:padding="20dp"
+          android:background="#66DAE2E8"
+          android:drawableLeft="@drawable/mail_24px"
+          android:drawablePadding="15dp"
+          />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="57dp"
+          android:id="@+id/password"
+          android:hint="Password : "
+          android:layout_marginTop="20dp"
+          android:layout_marginRight="40dp"
+          android:layout_marginLeft="40dp"
+          android:padding="20dp"
+          android:background="#66DAE2E8"
+          android:drawableLeft="@drawable/password_24px"
+          android:drawablePadding="15dp"
+          />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="57dp"
+          android:id="@+id/confirm_password"
+          android:hint="Confirm Password : "
+          android:layout_marginTop="20dp"
+          android:layout_marginRight="40dp"
+          android:layout_marginLeft="40dp"
+          android:padding="20dp"
+          android:background="#66DAE2E8"
+          android:drawableLeft="@drawable/password_24px"
+          android:drawablePadding="15dp"
+          />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="57dp"
+          android:id="@+id/mobile"
+          android:hint="Enter Mobile : "
+          android:layout_marginTop="20dp"
+          android:layout_marginRight="40dp"
+          android:layout_marginLeft="40dp"
+          android:padding="20dp"
+          android:background="#66DAE2E8"
+          android:drawableLeft="@drawable/phone_24px"
+          android:drawablePadding="15dp"
+          />
+      #  android:drawableLeft="@drawable/phone_40px"
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+          <RadioButton
+              android:layout_width="wrap_content"
+              android:layout_height="40dp"
+              android:layout_marginLeft="70dp"
+              android:text="Male"/>
+
+
+
+          <RadioButton
+              android:layout_width="wrap_content"
+              android:layout_height="40dp"
+              android:layout_marginLeft="80dp"
+              android:text="Female"/>
+
+      </LinearLayout>
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="57dp"
+          android:layout_gravity="center"
+          android:text="Register"
+          android:backgroundTint="@color/blue"
+          />
+  </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
